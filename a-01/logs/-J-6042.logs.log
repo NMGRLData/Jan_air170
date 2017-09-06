@@ -1,0 +1,2844 @@
+do run
+loading script "jan_unknown400_120.py"
+loading script "jan_pump_ms.py"
+loading script "jan_sniffair_x2.py"
+loading script "jan_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=539.8, duration=0.000339031219482
+script duration name:unknown400_120 seconds:540.0
+loading script "jan_unknown400_120.py"
+loading script "jan_pump_ms.py"
+loading script "jan_sniffair_x2.py"
+loading script "jan_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000112056732178
+loading script "jan_unknown400_120.py"
+loading script "jan_pump_ms.py"
+loading script "jan_sniffair_x2.py"
+loading script "jan_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=6.38961791992e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000110149383545
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.0001060962677
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000120878219604
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000102043151855
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=36.0, duration=9.51290130615e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.89301300049e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=5.60283660889e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=36.0, duration=0.000112056732178
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=70.0, duration=9.48905944824e-05
+executed snippet estimated_duration=250.0, duration=0.0128788948059
+script duration name:sniffair_x2 seconds:250.0
+loading script "jan_unknown400_120.py"
+loading script "jan_pump_ms.py"
+loading script "jan_sniffair_x2.py"
+loading script "jan_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.0002760887146
+executed snippet estimated_duration=4.0, duration=0.00133609771729
+Script duration 790.0
+Run total estimated duration= 791.000
+run duration: 0:13:11
+doing event level: 2
+08:34:15 -- Setting default integration. t=1.048576
+setting integration time = 1.048576
+SetIntegrationTime 1.048576 ===>> OK
+----------------- start -----------------
+**************** Experiment Type: Ar/Ar, Ar/Ar
+$$$$$ Clearing conditionals
+adding conditionals 
+Add queue conditionals
+add default conditionals
+adding default conditionals from /Users/jan/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+Start automated run a-01-J-6042
+loading script "jan_unknown400_120.py"
+loading script "jan_pump_ms.py"
+loading script "jan_sniffair_x2.py"
+loading script "jan_pump_extraction_line.py"
+%%%%%%%%%%%%%%%%%% setting automated run a-01-J-6042
+No value "sensitivity_multiplier" in metadata
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+============================= Pre Extraction Check =============================
+loading queue conditionals pre_run_terminations
+loading system conditionals pre_run_terminations
+loading conditionals from /Users/jan/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+08:34:15 -- ******* Pre Extraction Check *******
+Get a measurement from the spectrometer
+Pre Extraction Termination data. keys=H2,H1,AX,L1,L2,CDD, signals=-0.13367,0.04446,0.10950,-0.01781,-0.11806,0.00000
+08:34:15 -- testing system defined conditionals
+Checking default pre extraction terminations n=2
+testing CDD
+evaluate ot="CDD.inactive" t="CDD", ctx="{'CDD': False}"
+GetDeflection CDD ===>> 50
+testing CDD==2000
+evaluate ot="CDD.deflection==2000" t="CDD==2000", ctx="{'CDD': 50.0}"
+08:34:15 -- ******* Pre Extraction Check Passed *******
+=================================================================================
+08:34:15 -- stopping status monitor
+stop 4939231888
+Status monitor stopped
+Status monitor finished
+08:34:17 -- starting status monitor
+start 4939231888
+StatusMonitor period=1. Frequencies(state=2, checksum=3, lock=5, owner=5)
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+start extraction
+do extraction
+Analysis started at 08:34:18.884550
+Extraction Started jan_sniffair_x2.py
+08:34:18 -- ******* Extraction Started jan_sniffair_x2.py *******
+state changed from not run to extraction
+DO EXTRACTION <pychron.extraction_line.pyscript_runner.RemotePyScriptRunner object at 0x1293402f0>
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=6.5803527832e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000110864639282
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=9.29832458496e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000113010406494
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=7.79628753662e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=36.0, duration=9.70363616943e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000155925750732
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=7.70092010498e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=36.0, duration=0.000128030776978
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=70.0, duration=0.000176191329956
+executed snippet estimated_duration=250.0, duration=0.0128591060638
+Jan Air Sniff Pipette x1
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=6.48498535156e-05
+Waiting for minibone access
+wait ('FelixMiniboneFlag', 0) {}
+waiting for FelixMiniboneFlag = 0
+get handler 129.138.12.153,1061 3
+Read FelixMiniboneFlag ===>> 0
+finished waiting
+Minibone free
+acquire ('JanMiniboneFlag',) {'clear': True}
+acquire JanMiniboneFlag
+get handler 129.138.12.153,1061 1.0
+Set JanMiniboneFlag 1 ===>> OK
+JanMiniboneFlag acquired
+set extraction state False (0.75, 'red', 1.5)
+Minibone acquired
+wait ('MinibonePumpTimeFlag', 0) {}
+waiting for MinibonePumpTimeFlag = 0
+get handler 129.138.12.153,1061 3
+Read MinibonePumpTimeFlag ===>> 0
+finished waiting
+executed snippet estimated_duration=0, duration=0.0227057933807
+WaitForMiniboneAccess.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000203847885132
+Prepare for Air Shot
+close () {'description': 'Jan Inlet'}
+close name=--- desc=Jan Inlet
+checking ownership. requestor=129.138.12.150
+check software interlocks R
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close R ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState R ===>> False
+change switch state (True, True)
+08:34:19 -- CLOSE  VALVE-R (Jan Inlet)
+-------------------------- close None (Jan Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Jan Ion Pump'}
+open name=--- desc=Jan Ion Pump
+checking ownership. requestor=129.138.12.150
+check software interlocks O
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open O ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState O ===>> OK
+change switch state (True, True)
+08:34:19 -- OPEN   VALVE-O (Jan Ion Pump)
+-------------------------- open None (Jan Ion Pump) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+action=open, ok=True, locked=[False]
+close () {'description': 'Minibone to Bone'}
+close name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.150
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close I ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState I ===>> False
+change switch state (True, True)
+08:34:20 -- CLOSE  VALVE-I (Minibone to Bone)
+-------------------------- close None (Minibone to Bone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Bone to Minibone'}
+close name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.150
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close E ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState E ===>> False
+change switch state (True, True)
+08:34:21 -- CLOSE  VALVE-E (Bone to Minibone)
+-------------------------- close None (Bone to Minibone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close P ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState P ===>> False
+change switch state (True, True)
+08:34:21 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Quad Inlet'}
+close name=--- desc=Quad Inlet
+checking ownership. requestor=129.138.12.150
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close Q ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Q ===>> False
+change switch state (True, True)
+08:34:21 -- CLOSE  VALVE-Q (Quad Inlet)
+-------------------------- close None (Quad Inlet) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+action=close, ok=True, locked=[False]
+open () {'description': 'Microbone to Turbo'}
+open name=--- desc=Microbone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks U
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open U ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState U ===>> OK
+change switch state (True, True)
+08:34:22 -- OPEN   VALVE-U (Microbone to Turbo)
+-------------------------- open None (Microbone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Microbone to Inlet Pipette'}
+open name=--- desc=Microbone to Inlet Pipette
+checking ownership. requestor=129.138.12.150
+check software interlocks S
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open S ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState S ===>> OK
+change switch state (True, True)
+get handler 129.138.12.153,1061 3
+08:34:22 -- OPEN   VALVE-S (Microbone to Inlet Pipette)
+-------------------------- open None (Microbone to Inlet Pipette) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Microbone to Getter D-50'}
+open name=--- desc=Microbone to Getter D-50
+checking ownership. requestor=129.138.12.150
+check software interlocks K
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open K ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState K ===>> OK
+change switch state (True, True)
+08:34:23 -- OPEN   VALVE-K (Microbone to Getter D-50)
+-------------------------- open None (Microbone to Getter D-50) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Microbone to Getter NP-10'}
+open name=--- desc=Microbone to Getter NP-10
+checking ownership. requestor=129.138.12.150
+check software interlocks M
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open M ===>> OK
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState M ===>> OK
+change switch state (True, True)
+08:34:23 -- OPEN   VALVE-M (Microbone to Getter NP-10)
+-------------------------- open None (Microbone to Getter NP-10) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Microbone to CO2 Laser'}
+close name=--- desc=Microbone to CO2 Laser
+checking ownership. requestor=129.138.12.150
+check software interlocks T
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close T ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState T ===>> False
+change switch state (True, True)
+08:34:24 -- CLOSE  VALVE-T (Microbone to CO2 Laser)
+-------------------------- close None (Microbone to CO2 Laser) result=[(True, True)]
+action=close, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=5.99714779854
+PrepareForAirShot.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=9.89437103271e-05
+Evacuate Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close P ===>> OK
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState P ===>> False
+change switch state (True, True)
+08:34:25 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Microbone to Minibone'}
+open name=--- desc=Microbone to Minibone
+checking ownership. requestor=129.138.12.150
+check software interlocks L
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open L ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState L ===>> OK
+change switch state (True, True)
+08:34:25 -- OPEN   VALVE-L (Microbone to Minibone)
+-------------------------- open None (Microbone to Minibone) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+action=open, ok=True, locked=[False]
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close Z ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+08:34:26 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> OK
+change switch state (True, True)
+08:34:27 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 15.0502829552
+executed snippet estimated_duration=48.0, duration=17.9862480164
+EvacPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000148057937622
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+08:34:43 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Z ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+08:34:44 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 15.0207760334
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close Z ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+08:34:59 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+executed snippet estimated_duration=51.0, duration=18.1763830185
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=8.32080841064e-05
+Prepare for air expansion
+close () {'description': 'Microbone to Turbo'}
+close name=--- desc=Microbone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks U
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close U ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState U ===>> False
+change switch state (True, True)
+08:35:01 -- CLOSE  VALVE-U (Microbone to Turbo)
+-------------------------- close None (Microbone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Microbone to Getter NP-10'}
+open name=--- desc=Microbone to Getter NP-10
+checking ownership. requestor=129.138.12.150
+check software interlocks M
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open M ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState M ===>> OK
+change switch state (True, True)
+08:35:01 -- OPEN   VALVE-M (Microbone to Getter NP-10)
+-------------------------- open None (Microbone to Getter NP-10) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 2.00525403023
+open () {'description': 'Microbone to Minibone'}
+open name=--- desc=Microbone to Minibone
+checking ownership. requestor=129.138.12.150
+check software interlocks L
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open L ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState L ===>> OK
+change switch state (True, True)
+08:35:04 -- OPEN   VALVE-L (Microbone to Minibone)
+-------------------------- open None (Microbone to Minibone) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=6.0, duration=3.4890460968
+PrepareForAirShotExpansion.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=36.0, duration=0.000175952911377
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close P ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState P ===>> False
+change switch state (True, True)
+08:35:04 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 2.02173495293
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> OK
+increment shot count 3846
+saved current shot count 3846
+change switch state (True, True)
+08:35:07 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 15.0284979343
+sleep (1,) {}
+SLEEP 1.0
+get handler 129.138.12.153,1061 3
+executed snippet estimated_duration=54.0, duration=19.1792459488
+ExpandPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000167846679688
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+08:35:23 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 129.138.12.153,1061 3
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Z ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+08:35:25 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 15.0220050812
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close Z ===>> OK
+get handler 129.138.12.153,1061 3
+set states for children of Z. state=False
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+08:35:40 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 129.138.12.153,1061 3
+executed snippet estimated_duration=51.0, duration=18.1940767765
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.0001220703125
+Prepare for air expansion
+close () {'description': 'Microbone to Turbo'}
+close name=--- desc=Microbone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks U
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close U ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState U ===>> False
+change switch state (True, True)
+08:35:42 -- CLOSE  VALVE-U (Microbone to Turbo)
+-------------------------- close None (Microbone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Microbone to Getter NP-10'}
+open name=--- desc=Microbone to Getter NP-10
+checking ownership. requestor=129.138.12.150
+check software interlocks M
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open M ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState M ===>> OK
+change switch state (True, True)
+08:35:42 -- OPEN   VALVE-M (Microbone to Getter NP-10)
+-------------------------- open None (Microbone to Getter NP-10) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+action=open, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 2.00828099251
+open () {'description': 'Microbone to Minibone'}
+open name=--- desc=Microbone to Minibone
+checking ownership. requestor=129.138.12.150
+check software interlocks L
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open L ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState L ===>> OK
+change switch state (True, True)
+08:35:45 -- OPEN   VALVE-L (Microbone to Minibone)
+-------------------------- open None (Microbone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=6.0, duration=3.43597602844
+PrepareForAirShotExpansion.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=36.0, duration=0.0002121925354
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close P ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState P ===>> False
+change switch state (True, True)
+08:35:45 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 2.01184391975
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> OK
+increment shot count 3847
+saved current shot count 3847
+change switch state (True, True)
+08:35:47 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 15.052314043
+sleep (1,) {}
+SLEEP 1.0
+get handler 129.138.12.153,1061 3
+executed snippet estimated_duration=54.0, duration=18.8851060867
+ExpandPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=70.0, duration=0.000233173370361
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close P ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState P ===>> False
+change switch state (True, True)
+08:36:04 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 2.0122590065
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open Y ===>> OK
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> OK
+change switch state (True, True)
+08:36:06 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (30,) {}
+SLEEP 30.0
+block started
+WaitControl setup for 30.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 30.0765099525
+close ('S',) {}
+close name=S desc=---
+checking ownership. requestor=129.138.12.150
+check software interlocks S
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close S ===>> OK
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState S ===>> False
+change switch state (True, True)
+08:36:38 -- CLOSE  VALVE-S (Microbone to Inlet Pipette)
+-------------------------- close S () result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (3,) {}
+SLEEP 3.0
+block started
+WaitControl setup for 3.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 3.02721095085
+executed snippet estimated_duration=105.0, duration=36.9965758324
+SniffPipette2.py completed successfully
+gosub finished
+executed snippet estimated_duration=250.0, duration=142.401153088
+jan_sniffair_x2.py completed successfully
+get handler 129.138.12.133,1063 3
+GetAchievedOutput ===>> No Response
+Requested Output= 0.000
+Achieved Output=  0.000
+get handler 129.138.12.133,1063 3
+GetResponseBlob ===>> No Response
+get handler 129.138.12.133,1063 3
+GetOutputBlob ===>> No Response
+persistence save...
+persistence save - db
+AutomatedRunPersister post_extraction_save deprecated
+persistence save - dvc
+no extraction position for 
+not connected to db mysql://janexp@129.138.12.160/labspy
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Enviromentals: {'lab_humiditys': [{'device': 'EnvironmentalMonitor',
+                    'name': 'Lab Hum.',
+                    'pub_date': '2017-09-06T08:31:26',
+                    'title': 'iServer Hum.',
+                    'value': 46.2}],
+ 'lab_pneumatics': [{'device': 'AirPressure',
+                     'name': 'Pressure',
+                     'pub_date': '2017-09-06T08:36:42',
+                     'title': None,
+                     'value': 107.4},
+                    {'device': 'AirPressure2',
+                     'name': 'Pressure2',
+                     'pub_date': '2017-09-06T08:34:47',
+                     'title': None,
+                     'value': 111.91726}],
+ 'lab_temperatures': [{'device': 'Coldfinger',
+                       'name': 'ColdFinger Temp.',
+                       'pub_date': '2017-09-06T03:05:29',
+                       'title': None,
+                       'value': -196.0},
+                      {'device': 'EnvironmentalMonitor',
+                       'name': 'Lab Temp.',
+                       'pub_date': '2017-09-06T08:34:27',
+                       'title': 'iServer Temp.',
+                       'value': 72.6},
+                      {'device': 'Chiller',
+                       'name': 'Coolant Temp.',
+                       'pub_date': '2017-09-06T08:34:58',
+                       'title': None,
+                       'value': 18.0555555555556}]}
+Extraction Finished
+08:36:44 -- ******* Extraction Finished *******
+no overlap. not waiting for min ms pumptime
+08:36:44 -- Sending spectrometer configuration
+======== Sending configuration ========
+SetDeflection CDD,50.0 ===>> OK
+SetDeflection H2,0.0 ===>> OK
+SetDeflection H1,0.0 ===>> OK
+SetDeflection L2,825.0 ===>> OK
+SetDeflection L1,400.0 ===>> OK
+SetDeflection AX,190.0 ===>> OK
+SetZFocus 74.64 ===>> OK
+SetZSymmetry -50.72 ===>> OK
+SetExtractionLens 26.13 ===>> OK
+SetIonRepeller -3.81 ===>> OK
+SetElectronEnergy 75.08 ===>> OK
+SetYSymmetry -2.81 ===>> OK
+SetIonCounterVoltage 1590.0 ===>> OK
+send trap current 200.0
+GetParameter Trap Current Readback ===>> 198.706464017579
+SetParameter Trap Current Set,200.0 ===>> OK
+updating mftable name mftable
+Using mftable located at /Users/jan/PychronDev/setupfiles/spectrometer/mftables/mftable.csv
+============ MFtable ===========
+Isotope  H2     H1     AX     L1     L2     CDD    
+Ar40     6.0545 5.8781 5.9919 6.1930 6.2293 6.6783
+Ar39     6.0094 5.7690 6.0560 6.3361 6.1120 6.5648
+Ar36     5.6869 5.4380 5.7193 5.9950 5.7670 6.2159
+================================
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+======== Configuration Finished ========
+GetYSymmetry ===>> -2.81
+GetZSymmetry ===>> -50.72
+GetParameter Trap Current Readback ===>> 198.147042666178
+GetHighVoltage ===>> 4499.94659342336
+start measurement
+do measurement
+L#=a-01-J analysis type=air
+Measurement Started jan_unknown400_120.py
+08:36:44 -- ******* Measurement Started jan_unknown400_120.py *******
+state changed from extraction to measurement
+setting trap, emission, spec, defl, and gains
+GetExtractionLens ===>> 26.13
+GetYSymmetry ===>> -2.81
+GetZSymmetry ===>> -50.72
+GetZFocus ===>> 74.64
+GetDeflection H2 ===>> 0
+GetDeflection H1 ===>> 0
+GetDeflection AX ===>> 190
+GetDeflection L1 ===>> 400
+GetDeflection L2 ===>> 825
+GetDeflection CDD ===>> 50
+GetGain H2 ===>> 0.0113
+GetGain H1 ===>> 0.1
+GetGain AX ===>> 0.09645
+GetGain L1 ===>> 0.010309
+GetGain L2 ===>> 0.091218
+GetGain CDD ===>> 0
+GetParameter Trap Current Readback ===>> 198.370811206739
+GetParameter Source Current Readback ===>> 550.225172434841
+pre measurement save
+New frame /Users/jan/PychronDev/data/isotopes/8a/57bc2d-7d1b-4ea7-a1aa-ecc7a26fb1b0.h5
+flush and close file /Users/jan/PychronDev/data/isotopes/8a/57bc2d-7d1b-4ea7-a1aa-ecc7a26fb1b0.h5
+testing...
+no interpolation path defined
+executed snippet estimated_duration=548.12, duration=0.000308036804199
+unknown measurement script
+activate_detectors ('H2', 'H1', 'AX', 'L1', 'L2', 'CDD') {}
+activate detectors
+*************** Set Analysis View Ar/Ar
+create graphs
+clearing graphs
+clear isotope group
+setting isotope det=H2, iso=Ar41
+setting isotope det=H1, iso=Ar40
+setting isotope det=AX, iso=Ar39
+setting isotope det=L1, iso=Ar38
+setting isotope det=L2, iso=Ar37
+setting isotope det=CDD, iso=Ar36
+setting previous blanks
+ - setting Ar41 blank 0.023+/-0.004
+ - setting Ar40 blank 0.087+/-0.007
+ - setting Ar36 blank 0.00255+/-0.00014
+ - setting Ar37 blank 0.054+/-0.004
+ - setting Ar38 blank -0.0030+/-0.0023
+ - setting Ar39 blank 0.027+/-0.008
+load analysis view
+position_magnet ('Ar40',) {'detector': 'H1'}
+detector Detector(H1)
+POSITION Ar40 H1
+molweights={'Ar41': 41.0, 'Ar40': 39.9624, 'Ar42': 42.0, 'Ar35': 35.0, 'Ar36': 35.9675, 'Ar37': 36.9668, 'Ar38': 37.9627, 'Ar39': 38.964}
+setting detector H2 to Ar41 (40.9624)
+setting detector H1 to Ar40 (39.9624)
+setting detector AX to Ar39 (38.9624)
+setting detector L1 to Ar38 (37.9624)
+setting detector L2 to Ar37 (36.9624)
+setting detector CDD to Ar36 (35.9624)
+Mapping mass to dac mass func: "parabolic"
+H1 map mass coeffs = [ -3.11428344e-04   1.33794662e-01   1.02866323e+00]
+H1 map mass to dac 39.9624 >> 5.87807
+GetDeflection H1 ===>> 0
+GetHighVoltage ===>> 4499.94659342336
+positioning Ar40 (5.8780353846) on H1
+setting magnet DAC
+current  : 5.240151
+requested: 5.878035
+Delta Dac: 0.637885
+Checking detector protection. dv=0.63788
+Checking detector "CDD". Protection Threshold: 0.5 (V)
+ProtectDetector CDD,On ===>> OK
+GetDeflection CDD ===>> 2000
+Protected = 2000
+SetMagnetDAC 5.8780353846 ===>> OK
+Magnet settling time: 0.500 0.500
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+Wait for magnet to stop moving
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+get handler 129.138.12.153,1061 3
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> False
+Magnet move complete
+Unprotect detectors
+ProtectDetector CDD,Off ===>> OK
+GetDeflection CDD ===>> 50
+set_dac. change=True
+update labels <pychron.experiment.plot_panel.PlotPanel object at 0x147b0e0b0>
+update labels "<pychron.graph.stacked_regression_graph.StackedRegressionGraph object at 0x130519830>"
+setting label 0 H2 Ar41
+setting label 1 H1 Ar40
+setting label 2 AX Ar39
+setting label 3 L1 Ar38
+setting label 4 L2 Ar37
+setting label 5 CDD Ar36
+update labels "<pychron.graph.stacked_graph.StackedGraph object at 0x128529b90>"
+setting label 0 H2 Ar41
+setting label 1 H1 Ar40
+setting label 2 AX Ar39
+setting label 3 L1 Ar38
+setting label 4 L2 Ar37
+setting label 5 CDD Ar36
+equilibrate () {'delay': 3, 'inlet': 'R', 'outlet': 'O', 'eqtime': 8.0}
+Equilibration Started
+08:36:47 -- ******* Equilibration Started *******
+checking ownership. requestor=129.138.12.150
+check software interlocks O
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close O ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState O ===>> False
+change switch state (True, True)
+08:36:47 -- CLOSE  VALVE-O (Jan Ion Pump)
+waiting 3s before opening inlet value ('R',)
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+checking ownership. requestor=129.138.12.150
+check software interlocks R
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open R ===>> OK
+get handler 129.138.12.153,1061 3
+set states for children of R. state=True
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState R ===>> OK
+change switch state (True, True)
+08:36:51 -- OPEN   VALVE-R (Jan Inlet)
+equilibrating for 8.0sec
+set_time_zero () {}
+sniff (8.0,) {}
+py_sniff
+build tables- sniff [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2), Detector(CDD)]
+add group /sniff/Ar41 (Group) '' table H2
+add group /sniff/Ar40 (Group) '' table H1
+add group /sniff/Ar39 (Group) '' table AX
+add group /sniff/Ar38 (Group) '' table L1
+add group /sniff/Ar37 (Group) '' table L2
+add group /sniff/Ar36 (Group) '' table CDD
+flush and close file /Users/jan/PychronDev/data/isotopes/8a/57bc2d-7d1b-4ea7-a1aa-ecc7a26fb1b0.h5
+measuring sniff. ncounts=8.0
+"sniff" increment series count="1" fit count="0" regressing="False"
+starting measurement
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Equilibration Finished
+08:36:59 -- ******* Equilibration Finished *******
+checking ownership. requestor=129.138.12.150
+check software interlocks R
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close R ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState R ===>> False
+change switch state (True, True)
+08:37:00 -- CLOSE  VALVE-R (Jan Inlet)
+Post Equilibration Started jan_pump_extraction_line.py
+08:37:00 -- ******* Post Equilibration Started jan_pump_extraction_line.py *******
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000184059143066
+executed snippet estimated_duration=4.0, duration=0.00148510932922
+Pump after analysis
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000164985656738
+Pump Microbone
+close () {'description': 'Jan Inlet'}
+close name=--- desc=Jan Inlet
+checking ownership. requestor=129.138.12.150
+check software interlocks R
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+waiting for write to finish
+measurement finished
+estimated time: 8.389 actual time: :8.502
+flush and close file /Users/jan/PychronDev/data/isotopes/8a/57bc2d-7d1b-4ea7-a1aa-ecc7a26fb1b0.h5
+set_fits () {}
+using default fits file=/Users/jan/PychronDev/scripts/measurement/fits/nominal.yaml
+set "Ar41" to "('linear', 'SEM')"
+set "Ar40" to "('Parabolic', 'SEM')"
+set "Ar36" to "('Parabolic', 'SEM')"
+set "Ar37" to "('linear', 'SEM')"
+set "Ar38" to "('linear', 'SEM')"
+set "Ar39" to "('Parabolic', 'SEM')"
+set_baseline_fits () {}
+using default fits file=/Users/jan/PychronDev/scripts/measurement/fits/nominal.yaml
+set "H2" to "('average', 'SEM')"
+set "H1" to "('average', 'SEM')"
+set "CDD" to "('average', 'SEM')"
+set "L2" to "('average', 'SEM')"
+set "L1" to "('average', 'SEM')"
+set "AX" to "('average', 'SEM')"
+multicollect () {'integration_time': 1, 'ncounts': 400}
+build tables- signal [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2), Detector(CDD)]
+add group /signal/Ar41 (Group) '' table H2
+add group /signal/Ar40 (Group) '' table H1
+add group /signal/Ar39 (Group) '' table AX
+add group /signal/Ar38 (Group) '' table L1
+add group /signal/Ar37 (Group) '' table L2
+add group /signal/Ar36 (Group) '' table CDD
+flush and close file /Users/jan/PychronDev/data/isotopes/8a/57bc2d-7d1b-4ea7-a1aa-ecc7a26fb1b0.h5
+measuring signal. ncounts=400
+Close R ===>> OK
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+"signal" increment series count="2" fit count="1" regressing="True"
+GetIndicatorState R ===>> False
+change switch state (True, True)
+08:37:00 -- CLOSE  VALVE-R (Jan Inlet)
+-------------------------- close None (Jan Inlet) result=[(True, True)]
+starting measurement
+action=close, ok=True, locked=[False]
+is_closed ('F',) {}
+is F () closed?
+is closed True
+open () {'description': 'CO2 Laser to Jan'}
+open name=--- desc=CO2 Laser to Jan
+checking ownership. requestor=129.138.12.150
+check software interlocks A
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open A ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState A ===>> OK
+change switch state (True, True)
+08:37:01 -- OPEN   VALVE-A (CO2 Laser to Jan)
+-------------------------- open None (CO2 Laser to Jan) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 129.138.12.153,1061 3
+============ Exception ==============
+Traceback (most recent call last):
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/qt4/base_window.py", line 198, in paintEvent
+    self.handler.paintEvent(event)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/qt4/base_window.py", line 50, in paintEvent
+    self._enable_window._paint(event)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/abstract_window.py", line 467, in _paint
+    self.component.draw(gc, view_bounds=(0, 0, size[0], size[1]))
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/component.py", line 421, in draw
+    self._draw(gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/component.py", line 773, in _draw
+    self._dispatch_draw(layer, gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/container.py", line 327, in _dispatch_draw
+    component._dispatch_draw(layer, gc, new_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/container.py", line 312, in _dispatch_draw
+    my_handler(gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/container.py", line 352, in _draw_container_underlay
+    self._draw_underlay(gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/component.py", line 881, in _draw_underlay
+    underlay.overlay(self, gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/chaco/grid.py", line 306, in overlay
+    self._draw_component(gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/chaco/grid.py", line 344, in _draw_component
+    ends[:,0] = self._tick_extents[:,1]
+IndexError: too many indices for array
+============ End Exception ==========
+close () {'description': 'CO2 Laser to Roughing'}
+close name=--- desc=CO2 Laser to Roughing
+checking ownership. requestor=129.138.12.150
+check software interlocks G
+interlocks []
+actuate state mode=None-script, software_lock=True
+VALVE-G(CO2 Laser to Roughing) software locked
+change switch state (True, False)
+-------------------------- close None (CO2 Laser to Roughing) result=[(True, False)]
+action=close, ok=True, locked=[True]
+open () {'description': 'Microbone to Turbo'}
+open name=--- desc=Microbone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks U
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open U ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState U ===>> OK
+change switch state (True, True)
+08:37:02 -- OPEN   VALVE-U (Microbone to Turbo)
+-------------------------- open None (Microbone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Microbone to Getter NP-10'}
+open name=--- desc=Microbone to Getter NP-10
+checking ownership. requestor=129.138.12.150
+check software interlocks M
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open M ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState M ===>> OK
+change switch state (True, True)
+08:37:03 -- OPEN   VALVE-M (Microbone to Getter NP-10)
+-------------------------- open None (Microbone to Getter NP-10) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Microbone to Getter D-50'}
+open name=--- desc=Microbone to Getter D-50
+checking ownership. requestor=129.138.12.150
+check software interlocks K
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open K ===>> OK
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState K ===>> OK
+change switch state (True, True)
+get handler 129.138.12.153,1061 3
+08:37:03 -- OPEN   VALVE-K (Microbone to Getter D-50)
+-------------------------- open None (Microbone to Getter D-50) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+action=open, ok=True, locked=[False]
+open () {'description': 'Microbone to CO2 Laser'}
+open name=--- desc=Microbone to CO2 Laser
+checking ownership. requestor=129.138.12.150
+check software interlocks T
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open T ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState T ===>> OK
+change switch state (True, True)
+08:37:04 -- OPEN   VALVE-T (Microbone to CO2 Laser)
+-------------------------- open None (Microbone to CO2 Laser) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Microbone to Inlet Pipette'}
+open name=--- desc=Microbone to Inlet Pipette
+checking ownership. requestor=129.138.12.150
+check software interlocks S
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open S ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState S ===>> OK
+change switch state (True, True)
+08:37:05 -- OPEN   VALVE-S (Microbone to Inlet Pipette)
+-------------------------- open None (Microbone to Inlet Pipette) result=[(True, True)]
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+action=open, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 129.138.12.153,1061 3
+set_resource () {'name': 'CO2PumpTimeFlag', 'value': 30}
+get handler 129.138.12.153,1061 3
+Set CO2PumpTimeFlag 30 ===>> OK
+release ('JanCO2Flag',) {}
+release JanCO2Flag
+get handler 129.138.12.153,1061 3
+Set JanCO2Flag 0 ===>> OK
+executed snippet estimated_duration=6.0, duration=6.19108295441
+PumpMicrobone.py completed successfully
+gosub finished
+get_resource_value () {'name': 'JanMiniboneFlag'}
+get handler 129.138.12.153,1061 3
+Read JanMiniboneFlag ===>> 1
+Get Resource Value JanMiniboneFlag=1.0
+get resource value 1.0
+get_resource_value () {'name': 'JanMiniboneFlag'}
+get handler 129.138.12.153,1061 3
+Read JanMiniboneFlag ===>> 1
+Get Resource Value JanMiniboneFlag=1.0
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=4.81605529785e-05
+Entering Pump minibone script
+get_resource_value () {'name': 'JanMiniboneFlag'}
+get handler 129.138.12.153,1061 3
+Read JanMiniboneFlag ===>> 1
+Get Resource Value JanMiniboneFlag=1.0
+get resource value 1.0
+get_resource_value () {'name': 'JanMiniboneFlag'}
+get handler 129.138.12.153,1061 3
+Read JanMiniboneFlag ===>> 1
+Get Resource Value JanMiniboneFlag=1.0
+Pump minibone
+close () {'description': 'Bone to Minibone'}
+close name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.150
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close E ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState E ===>> False
+change switch state (True, True)
+08:37:06 -- CLOSE  VALVE-E (Bone to Minibone)
+-------------------------- close None (Bone to Minibone) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+action=close, ok=True, locked=[False]
+open () {'description': 'Minibone to Bone'}
+open name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.150
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open I ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState I ===>> OK
+change switch state (True, True)
+08:37:07 -- OPEN   VALVE-I (Minibone to Bone)
+-------------------------- open None (Minibone to Bone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Microbone to Minibone'}
+close name=--- desc=Microbone to Minibone
+checking ownership. requestor=129.138.12.150
+check software interlocks L
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close L ===>> OK
+get handler 129.138.12.153,1061 3
+set states for children of L. state=False
+get handler 129.138.12.153,1061 3
+GetIndicatorState L ===>> False
+change switch state (True, True)
+08:37:08 -- CLOSE  VALVE-L (Microbone to Minibone)
+-------------------------- close None (Microbone to Minibone) result=[(True, True)]
+refresh_canvas_needed fired
+action=close, ok=True, locked=[False]
+sleep () {'duration': 1.0}
+SLEEP 1.0
+============ Exception ==============
+Traceback (most recent call last):
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/qt4/base_window.py", line 198, in paintEvent
+    self.handler.paintEvent(event)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/qt4/base_window.py", line 50, in paintEvent
+    self._enable_window._paint(event)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/abstract_window.py", line 467, in _paint
+    self.component.draw(gc, view_bounds=(0, 0, size[0], size[1]))
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/component.py", line 421, in draw
+    self._draw(gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/component.py", line 773, in _draw
+    self._dispatch_draw(layer, gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/container.py", line 327, in _dispatch_draw
+    component._dispatch_draw(layer, gc, new_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/container.py", line 312, in _dispatch_draw
+    my_handler(gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/container.py", line 352, in _draw_container_underlay
+    self._draw_underlay(gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/enable/component.py", line 881, in _draw_underlay
+    underlay.overlay(self, gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/chaco/grid.py", line 306, in overlay
+    self._draw_component(gc, view_bounds, mode)
+File "/Users/jan/anaconda/envs/pychron_env/lib/python2.7/site-packages/chaco/grid.py", line 344, in _draw_component
+    ends[:,0] = self._tick_extents[:,1]
+IndexError: too many indices for array
+============ End Exception ==========
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+open () {'description': 'Minibone to Turbo'}
+open name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open P ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState P ===>> OK
+change switch state (True, True)
+08:37:09 -- OPEN   VALVE-P (Minibone to Turbo)
+-------------------------- open None (Minibone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Quad Inlet'}
+open name=--- desc=Quad Inlet
+checking ownership. requestor=129.138.12.150
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Q ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Q ===>> OK
+change switch state (True, True)
+08:37:10 -- OPEN   VALVE-Q (Quad Inlet)
+-------------------------- open None (Quad Inlet) result=[(True, True)]
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+action=open, ok=True, locked=[False]
+set_resource () {'name': 'MinibonePumpTimeFlag', 'value': 30}
+get handler 129.138.12.153,1061 3
+Set MinibonePumpTimeFlag 30 ===>> OK
+sleep () {'duration': 15.0}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 15.0400319099
+close () {'description': 'Outer Pipette 1'}
+close name=--- desc=Outer Pipette 1
+checking ownership. requestor=129.138.12.150
+check software interlocks W
+interlocks ['X']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close W ===>> OK
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState W ===>> False
+change switch state (True, True)
+08:37:25 -- CLOSE  VALVE-W (Outer Pipette 1)
+-------------------------- close None (Outer Pipette 1) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+08:37:26 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+08:37:26 -- collecting point 25
+action=close, ok=True, locked=[False]
+release ('JanMiniboneFlag',) {}
+release JanMiniboneFlag
+get handler 129.138.12.153,1061 3
+Set JanMiniboneFlag 0 ===>> OK
+executed snippet estimated_duration=16.0, duration=19.9806559086
+PumpMinibone.py completed successfully
+gosub finished
+executed snippet estimated_duration=4.0, duration=26.2171099186
+jan_pump_extraction_line.py completed successfully
+Post Equilibration Finished
+08:37:26 -- ******* Post Equilibration Finished *******
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+08:37:52 -- collecting point 50
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+08:38:18 -- collecting point 75
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20698189852847146}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20714638426484194}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20717710325196023}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2062952973054893}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20661371149455568}"
+08:38:44 -- collecting point 100
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20783780314866784}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20661815450794743}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20636170740614285}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20576532728938773}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20599227983544402}"
+08:39:11 -- collecting point 125
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20661911513025832}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20663904761533047}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2064108065259301}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20626054832836427}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20690684115611602}"
+08:39:37 -- collecting point 150
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2070829399288339}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20727736789185494}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20768874552580546}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20709936017268238}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20717889888146584}"
+08:40:03 -- collecting point 175
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20709304582782945}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20712216907246928}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20673568335761605}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2064212812045359}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2060747564391622}"
+08:40:30 -- collecting point 200
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20620279526702837}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20641489077901146}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20629660070806005}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20627873333188018}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20624266300755792}"
+08:40:56 -- collecting point 225
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20645214444340634}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20642770437035168}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2062988386329767}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20615980757284297}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20639396785421604}"
+08:41:22 -- collecting point 250
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2061412828217951}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2059831101812422}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20582138870566435}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20574505501628046}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20572676380278823}"
+08:41:48 -- collecting point 275
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20564308853042035}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20562856484616235}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20603330686689633}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2060973780678782}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2060409265569319}"
+08:42:15 -- collecting point 300
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20596501701322212}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20564176620395658}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20558021223536715}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2057776707868688}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20610936027711596}"
+08:42:41 -- collecting point 325
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2058799576835039}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2058633676018642}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2059544735031377}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20593607273948908}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20595406845099876}"
+08:43:07 -- collecting point 350
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2059813901504905}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20599854687209312}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20584140544207663}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20582847721311237}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20604521236009582}"
+08:43:33 -- collecting point 375
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2061023346048829}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20600022651311967}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20591769628989007}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.2060749936536695}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08746387317887137}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.205909127778249}"
+08:44:00 -- collecting point 400
+waiting for write to finish
+measurement finished
+estimated time: 419.430 actual time: :420.305
+flush and close file /Users/jan/PychronDev/data/isotopes/8a/57bc2d-7d1b-4ea7-a1aa-ecc7a26fb1b0.h5
+baselines () {'settling_time': 15.0, 'detector': 'H1', 'mass': 34.2, 'ncounts': 120}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Baseline
+build tables- baseline [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2), Detector(CDD)]
+add group baseline table H2
+add group baseline table H1
+add group baseline table AX
+add group baseline table L1
+add group baseline table L2
+add group baseline table CDD
+flush and close file /Users/jan/PychronDev/data/isotopes/8a/57bc2d-7d1b-4ea7-a1aa-ecc7a26fb1b0.h5
+detector Detector(H1)
+POSITION 34.2 H1
+Mapping mass to dac mass func: "parabolic"
+H1 map mass coeffs = [ -3.11428344e-04   1.33794662e-01   1.02866323e+00]
+H1 map mass to dac 34.2 >> 5.24018160773
+GetDeflection H1 ===>> 0
+GetHighVoltage ===>> 4499.94659342336
+positioning 34.2 (5.24015074879) on H1
+setting magnet DAC
+current  : 5.878035
+requested: 5.240151
+Delta Dac: 0.637885
+Checking detector protection. dv=0.63788
+Checking detector "CDD". Protection Threshold: 0.5 (V)
+ProtectDetector CDD,On ===>> OK
+GetDeflection CDD ===>> 2000
+Protected = 2000
+SetMagnetDAC 5.24015074879 ===>> OK
+Magnet settling time: 0.500 0.500
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+Wait for magnet to stop moving
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+get handler 129.138.12.153,1061 3
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> True
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetMagnetMoving ===>> True
+GetMagnetMoving ===>> False
+Magnet move complete
+Unprotect detectors
+ProtectDetector CDD,Off ===>> OK
+GetDeflection CDD ===>> 50
+set_dac. change=True
+Delaying 15.0s for detectors to settle
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+measuring baseline. ncounts=120
+"baseline" increment series count="2" fit count="1" regressing="True"
+starting measurement
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.07458593384117598}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08116739034755487}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.07133549061383947}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.07459247135040523}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.0727718660289775}"
+08:44:44 -- collecting point 25
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.07559581844849712}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.07570079582003686}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.0766723502946502}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08286312034903152}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08073826171892885}"
+08:45:11 -- collecting point 50
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08352164217514238}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08322325280683401}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08197065139140337}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08348208721785634}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08326736891038142}"
+08:45:37 -- collecting point 75
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+ask. get packet. error: timed out address: UDP://129.138.12.152:1069
+get handler 129.138.12.152,1069 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+testing H1<-5.0
+evaluate ot="H1.bs<-5.0" t="H1<-5.0", ctx="{'H1': 0.08128248295122988}"
+testing Ar36<0.001
+evaluate ot="Ar36.bs_corrected<0.001" t="Ar36<0.001", ctx="{'Ar36': 0.20586129313871743}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+No Intensity change. Something is wrong. 
+flush and close file /Users/jan/PychronDev/data/isotopes/8a/57bc2d-7d1b-4ea7-a1aa-ecc7a26fb1b0.h5
+_execute: Traceback (most recent call last):
+  File "/Users/jan/Programming/git/pychron_dev/pychron/pyscripts/pyscript.py", line 360, in execute_snippet
+    func(*argv)
+  File "<string>", line 79, in main
+  File "/Users/jan/Programming/git/pychron_dev/pychron/pyscripts/pyscript.py", line 135, in decorator
+    return func(obj, *args, **kw)
+  File "/Users/jan/Programming/git/pychron_dev/pychron/pyscripts/measurement_pyscript.py", line 247, in baselines
+    series=series):
+  File "/Users/jan/Programming/git/pychron_dev/pychron/pyscripts/measurement_pyscript.py", line 883, in _automated_run_call
+    return func(*args, **kw)
+  File "/Users/jan/Programming/git/pychron_dev/pychron/experiment/automated_run/automated_run.py", line 447, in py_baselines
+    check_conditionals, sc)
+  File "/Users/jan/Programming/git/pychron_dev/pychron/experiment/automated_run/automated_run.py", line 2316, in _measure
+    m.measure()
+  File "/Users/jan/Programming/git/pychron_dev/pychron/experiment/automated_run/data_collector.py", line 116, in measure
+    self._measure(evt)
+  File "/Users/jan/Programming/git/pychron_dev/pychron/experiment/automated_run/data_collector.py", line 154, in _measure
+    if not self._iter(i):
+  File "/Users/jan/Programming/git/pychron_dev/pychron/experiment/automated_run/data_collector.py", line 181, in _iter
+    if not self._iter_hook(i):
+  File "/Users/jan/Programming/git/pychron_dev/pychron/experiment/automated_run/multi_collector.py", line 37, in _iter_hook
+    return self._iteration(i)
+  File "/Users/jan/Programming/git/pychron_dev/pychron/experiment/automated_run/data_collector.py", line 204, in _iteration
+    data = self._get_data(detectors)
+  File "/Users/jan/Programming/git/pychron_dev/pychron/experiment/automated_run/data_collector.py", line 236, in _get_data
+    data = next(self.data_generator)
+StopIteration
+
+Post Measurement Started jan_pump_ms.py
+08:45:49 -- ******* Post Measurement Started jan_pump_ms.py *******
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.50339508057e-05
+Pumping spectrometer
+open () {'name': 'O'}
+open name=O desc=---
+checking ownership. requestor=129.138.12.150
+check software interlocks O
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open O ===>> ERROR 004 : invalid arguments: Open O
+change switch state (None, False)
+-------------------------- open O () result=[(None, False)]
+get handler 129.138.12.153,1061 3
+action=open, ok=None, locked=[False]
+Failed to open valve Name="O", Description=""
+Retry actuation. i=1 Action="open", Name="O", Description=""
+get handler 129.138.12.153,1061 3
+checking ownership. requestor=129.138.12.150
+check software interlocks O
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open O ===>> ERROR 004 : invalid arguments: Open O
+change switch state (None, False)
+get handler 129.138.12.153,1061 3
+action=open, ok=None, locked=[False]
+Failed to open valve Name="O", Description=""
+get handler 129.138.12.153,1061 3
+Retry actuation. i=2 Action="open", Name="O", Description=""
+checking ownership. requestor=129.138.12.150
+check software interlocks O
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open O ===>> OK
+get handler 129.138.12.153,1061 3
+set states for children of O. state=True
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+GetIndicatorState O ===>> OK
+change switch state (True, True)
+08:45:52 -- OPEN   VALVE-O (Jan Ion Pump)
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=3.51937198639
+jan_pump_ms.py completed successfully
+setting _ms_pumptime
+Post Measurement Finished
+08:45:52 -- ******* Post Measurement Finished *******
+----------------- finish -----------------
+state changed from measurement to failed
+----------------- stop -----------------
+Measurement Finished unsuccessfully. Aborted=False
+08:45:52 -- ******* Measurement Finished unsuccessfully. Aborted=False *******
+failed execution step Measurement Failed
+measurement did not complete successfully
+08:45:52 -- Automated run a-01-J-6042 failed duration: 697.254 s
+----------------- finish -----------------
+----------------- stop -----------------
+finish run. runs completed=7
+write rem/ex queues
+/Users/jan/PychronDev/experiments/rem/CurrentExperiment.rem.txt
+/Users/jan/PychronDev/experiments/rem/CurrentExperiment.ex.txt
+doing event level: 3
+add run
